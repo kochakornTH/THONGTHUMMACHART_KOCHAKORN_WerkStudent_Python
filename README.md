@@ -192,5 +192,8 @@ python _mainpdfToGrayPNG.py './Work_Space' 'INV_20250109_2355'
 ```
 
 ## 04.Labelled Reconcile
-
+### Labelling Manual
+1. Copy folder '_gray' to Work_Space folder
+2. Change '_gray' folder name to 'Production_Batch_Folder_Labelled'
+3. Enter into the folder and start labelling with the manual below
 ![screenshot](PDF_Lebelling_Guideline_image.png)
