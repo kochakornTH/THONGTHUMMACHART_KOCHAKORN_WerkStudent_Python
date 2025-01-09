@@ -1,8 +1,11 @@
 ## 01. app
 <ins>Input</ins>
-1. A directory which contains production batch folder. 
-2. Production paremeter directory.
-3. Batch Name : same as target production batch folder name.
+1. PATH which is a directory that contains 'Production Batch Folder'. 
+    - 'Production Batch Folder' is the folder that contain PDF files.
+2. PATH of 'Production Paremeter Directory'.
+    - 'Production Paremeter Directory' is the folder that contain prior paratmeter for pdf classification and OCR.
+3. Batch Name : A string that represent 'Production Batch Number'
+    -  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name.
 
 <ins>Output</ins>
 1. Excel file: File Name : ’BatchSummary\_\<Batch Name\>.xlsx’
