@@ -13,7 +13,11 @@ Due to the small number of sample files, the developer assumes the following pos
 2. Before processing, all PDFs need to be labeled (see 'Labelling Preparation') and their necessary parameters logged in JSON (see 'Labelled Reconcile'). 
 3.  To minimize risks during information extraction, two validation steps are implemented. Any PDF template must pass these two validation rules before information extraction:
 	1. First Validation: The PDF must have the same page number and size as specified in the corresponding JSON file.
-	2. Second Validation: After extracting information by OCR, the program will match necessary fields with the information logged in the corresponding JSON file (see 'Labelling Preparation' for details on necessary fields).
+	2. Second Validation: After extracting information by OCR, the program will match necessary fields with the information logged in the corresponding JSON file.:
+		1. The company address of the invoice MUST show as same as previous invoice.
+		2. The Table that contains Gross Invoice Amount MUST show as same as previous invoice.
+		3. 'Top Unchange Text' MUST show as same as previous invoice.
+		4. 'Lowest Unchange Text' MUST show as same as previous invoice.
 
 ### Solution Selection
 1. Extract simple text from the PDF to find the company name.
