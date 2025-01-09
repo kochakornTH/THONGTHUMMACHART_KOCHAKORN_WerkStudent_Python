@@ -134,37 +134,35 @@ Linux users will have to install tesseract. Installing using apt-get
     pip install -r requirements.txt
 ```
 
-## 03. Labelling Program Overview
-
+## 03. Labelling Preparation
 
 #### <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
-    - 'Production Batch Folder' is the folder that contain PDF files.
-2. PATH of 'Production Paremeter Directory'.
-    - 'Production Paremeter Directory' is the folder that contain prior paratmeter for pdf classification and OCR.
-3. Batch Name : A string that represent 'Production Batch Number'
-    -  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name. (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
+	- 'Production Batch Folder' is the folder that contain PDF files.
+2. Batch Name : A string that represent 'Production Batch Number'
+	-  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name. (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
 
 #### <ins>Output</ins>
-1. Excel file: File Name : ’BatchSummary\_\<Batch Name\>.xlsx’
-    - with 2 sheets: 
-        - ‘sheet1’:Summary of invoice info 
-        - ‘sheet2’: pivot table of invoice info
-2. CSV file : File Name : ’BatchSummary\_\<Batch Name\>.csv’
+The program will return 2 folders: 
+1. Folder ‘<Batch Name>\_Labelling’
+	 In this folder, there are 2 folders:
+	1. ‘_gray’ ; contains gray PNG files (files that be transformed from PDF)
+	2. ‘_picture’ contains color PNG files (files that be transformed from PDF)
+
+2. Folder ‘<Batch Name>\_Control’
+	In this folder, there are 2 files:
+	1.  ‘<Batch Name>\_Overall.json’ ; Contains basic info of the files in developing batch folder.
+	2. ‘<Batch Name>\_PDF.json’ ; contains basic info of the ONLY pdf in developing batch folder.
 
 #### <ins>Execution step</ins>
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Complie via command line
-    (a) Open Command line program 
-    (b) Change directory to ‘app’ folder in the working folder
-    (c) Compile python script with
-```
-python _main.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
-```
+	(a) Open Command line program 
+	(b) Change directory to ‘\_OCRapp’ folder in the working folder
+	(c) Compile python script with
+	python _mainpdfToGrayPNG.py <PATH_which_contains_production_batch_folder> <Batch_Name> 
 
-
-## 03.Labelling Preparation
 
 ## 04.Labelled Reconcile
