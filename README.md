@@ -239,4 +239,11 @@ The program will return 2 folders:
 python _mainGetOCRParameter.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 
 ```
-2. Go to Folder ‘<Batch Name>\_Control’ find files {‘Batch_<Batch Name>_listForRecieptDT.json’,‘Batch_<Batch Name>_listForRecieptNo.json’,‘Batch_<Batch Name>_listForCompanyName.json’,‘Batch_<Batch Name>_listForAMT.json’}
+3. Go to Folder ‘<Batch Name>\_Control’ find files {‘Batch_<Batch Name>_listForRecieptDT.json’,‘Batch_<Batch Name>_listForRecieptNo.json’,‘Batch_<Batch Name>_listForCompanyName.json’,‘Batch_<Batch Name>_listForAMT.json’}
+4. Go to Folder ‘_OCR\_pdfOCRSCRIPT_DEV’ find files {'ReciptDateFormat.json','ReciptInvNoFormat.json','CompanyNameFormat.json’,'ReciptAmtFormat.json’}
+5. Manually edit 4 files in ‘_OCR\_pdfOCRSCRIPT_DEV’ with the guideline below
+
+![screenshot](/ImageDocument/_ManualReciptDateFormatJSON.png)
+![screenshot](/ImageDocument/_ManualReciptlnvNoFormatJSON.png)
+![screenshot](/ImageDocument/_ManualCompanyNameFormatJSON.png)
+![screenshot](/ImageDocument/_ManualReciptAmtFormatJSON.png)
