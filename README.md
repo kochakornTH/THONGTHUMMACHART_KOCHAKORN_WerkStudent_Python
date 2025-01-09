@@ -26,12 +26,12 @@
 python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
 ```
 
-* [Work_Space](./Work_Space)
- * [](./Work_Space)
-    * [Production_Batch_Folder](./Work_Space/Production_Batch_Folder)
-    * [_OCR](./Work_Space/_OCR)
-
-
+├── ...
+├── Work_Space                           # Working Directory
+│   ├── Production_Batch_Folder          # Folder that contains Production PDF files for infomation extraction
+│   └── _OCR                             # Folder that contains Programs for infomation extraction
+│                              
+└── ...
 
 ## Installation
 ### Prerequisites
