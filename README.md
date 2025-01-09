@@ -19,9 +19,10 @@
 2. Name to folder as batch name as batch folder 
     - (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
-4. Open command line
-    -  Change directory to ‘app’ folder in the working folder
-    - Compile python script with
+4. Complie via command line
+    4.1 Open Command line program 
+    4.2 Change directory to ‘app’ folder in the working folder
+    4.3 Compile python script with
 ```
 python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
 ```
