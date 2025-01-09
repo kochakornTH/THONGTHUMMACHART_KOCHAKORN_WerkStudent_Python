@@ -58,15 +58,15 @@ python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20250109_2355'
 (ref: https://github.com/Belval/pdf2image)
 	
 #### **Window**
-Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
+    Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
 
 #### **Mac**
-Mac users will have to install poppler. Installing using Brew:
+    Mac users will have to install poppler. Installing using Brew:
 
 	brew install poppler
 
 #### **Linux**
-Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
+    Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
 
 
 ### 02. To install tesseract
@@ -100,4 +100,7 @@ Linux users will have to install tesseract. Installing using apt-get
 ```	
     pip install -r requirements.txt
 ```
+
+## 03. Program Overview
+
 
