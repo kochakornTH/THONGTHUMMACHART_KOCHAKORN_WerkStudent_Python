@@ -60,9 +60,9 @@ Due to the small number of sample files, the developer assumes the following pos
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Compile via command line
-    - (a) Open Command line program 
-    - (b) Change directory to ‘app’ folder in the working folder
-    - (c) Compile python script with
+    1. Open Command line program 
+    2. Change directory to ‘app’ folder in the working folder
+    3. Compile python script with
 ```
 python _main.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 ```
@@ -161,9 +161,9 @@ The program will return 2 folders:
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Compile via command line
-	- (a) Open Command line program 
-	- (b) Change directory to ‘\_OCR\labellingPrep’ folder in the working folder
-	- (c) Compile python script with
+	1. Open Command line program 
+	2. Change directory to ‘\_OCR\labellingPrep’ folder in the working folder
+	3. Compile python script with
 ```
 	python _mainpdfToGrayPNG.py <PATH_which_contains_production_batch_folder> <Batch_Name> 
 ```
@@ -233,9 +233,9 @@ The program will return 2 folders:
 ![screenshot](/ImageDocument/_ManualCompanyMatching.png)
 
 2. Compile via command line
-	- (a) Open Command line program 
-	- (b) Change directory to ‘\_OCRlabellingPrep’ folder in the working folder
-	- (c) Compile python script with
+	1. Open Command line program 
+	2. Change directory to ‘\_OCRlabellingPrep’ folder in the working folder
+	3. Compile python script with
 ```
 python _mainGetOCRParameter.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 
@@ -275,3 +275,10 @@ Example of Working Directory
 |           └── ReciptAmtFormat.json
 └── ...
 ```
+
+## 05.Problem Reporting
+
+1. . Execution Method.
+- Process improvement
+- Human Error
+- Suggestion Method
