@@ -1,5 +1,5 @@
 # PDF Information Extraction with \OCR\app
-## 00. Case Limitation and Solution Selection
+## 00. Case Limitation, Scope and Solution Selection
 ### Case Limitation
 Due to the small number of sample files, the developer assumes the following possible cases:
 1. Encountering both image-based and text-based PDF files.
@@ -35,7 +35,8 @@ Due to the small number of sample files, the developer assumes the following pos
 3. Python 3.11.7
 4. Necessary Python packages in 'requirements.txt'
 
-#### Program Info
+ 
+### <ins>Program Info</ins> 
 
 #### <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
