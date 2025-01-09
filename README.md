@@ -1,79 +1,66 @@
+## 01. app
+**Input**
+1. A directory which contains production batch folder. 
+2. Production paremeter directory.
+3. Batch Name : same as target production batch folder name.
 
-# WerkStudent_Python
+**output**
+1. Excel file: File Name : ’BatchSummary\_<Batch Name>.xlsx’
+2. SheetName:    ‘sheet1’:Summary of invoice info, 
+		        ‘sheet2’: pivot table of invoice info
+2. CSV file : File Name : ’BatchSummary\_<Batch Name>.csv’
 
-## Overview
-
-This repository contains the interview task for the WerkStudent position in Python. The goal is to collect data from two sample invoices, create an Excel file with two sheets, and generate a CSV file. Additionally, an executable file should be provided to run the code. x
-
-## Task Details
-
-1. **Data Extraction**:
-    - Extract specific values from three sample invoices.
-    - For Sample 1, extract the value shown in the provided image.
-    - <img width="289" alt="image" src="https://github.com/user-attachments/assets/0cf000ff-c305-4ffe-beb4-1c02a04d06b6" />
-    - For Samples 2, extract the value shown in the provided image.
-    - <img width="497" alt="image" src="https://github.com/user-attachments/assets/ea6eb368-604d-4dd4-9235-fbc8ec36d275" />
-
-2. **Excel File Creation**:
-    - Create an Excel file with two sheets:
-        - **Sheet 1**: Contains three columns - File Name, Date (scraped from the document), and Value.
-        - **Sheet 2**: Contains a pivot table with the date and value sum, and also by document name.
-
-3. **CSV File Creation**:
-    - Create a CSV file with all the data, including headers, and use a semicolon (;) as the separator.
-
-4. **Executable File**:
-    - Provide an executable file (.exe) that can run the code if the files are in the same folder.
-
-5. **Fork Creation**:
-    - Create a fork of this repository named `LastName_FirstName_WerkStudent_Python` (e.g., `Shovon_Golam_WerkStudent_Python`).
-    - Upload your code to this branch. No need to submit a pull request; the fork will be checked directly.
-
-6. **Documentation**:
-    - Include an explanation in the README file that a non-technical person can understand.
-    - Ensure the code is documented so that a technical person can understand it.
-
-7. **Problem Reporting**:
-    - If you face any problems or find it impossible to complete a task, document the issue in the README file of your branch. Explain what the problem was and why you were unable to complete it.
+**Execution step**
+1. Copy all pdf into a folder
+2. Name to folder as batch name as batch folder (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>)
+3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
+4. Open command line
+5. Change directory to ‘app’ folder in the working folder
+6. Comply python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
 
 
-## How It Works
+## Installation
+### Prerequisites
+1. Python 3.11.7
+2. poppler
+3. tesseract
+4. Necessary packages in requirements.txt
 
-1. **Data Extraction**:
-    - The script reads the sample invoices and extracts the required values.
-    - The extracted data is stored in variables for further processing.
+### To install ‘poppler’ (ref: https://github.com/Belval/pdf2image)
+	
+**Window**
+Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
 
-2. **Excel File Creation**:
-    - The script creates an Excel file with two sheets.
-    - Sheet 1 contains the file name, extracted data, and value.
-    - Sheet 2 contains a pivot table summarizing the data by date and document name.
+**Mac**
+Mac users will have to install poppler. Installing using Brew:
 
-3. **CSV File Creation**:
-    - The script generates a CSV file with the extracted data, including headers, and uses a semicolon as the separator.
+	brew install poppler
 
-4. **Executable File**:
-    - An executable file is provided to run the entire code. Ensure the sample invoices are in the same folder as the executable file.
-
-5. **Requirements File**:
-    -A requirements.txt file is included to create the environment needed to run the code
-
-## Running the Code
-
-1. Place the sample invoices in the same folder as the executable file.
-2. Run the executable file to execute the code and generate the Excel and CSV files.
+**Linux**
+Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
 
 
-## Documentation
+### To install tesseract
+**Window**
+Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows)
+1. Download tesseract exe from https://github.com/UB-Mannheim/tesseract/wiki.
+2. Install this exe in C:Program Files (x86)Tesseract-OCR
+3. Open virtual machine command prompt in windows or anaconda prompt.
+4. Run pip install pytesseract
 
-- The README file contains a non-technical explanation of the code.
-- The code is documented with comments to help technical users understand its functionality.
+**Mac**
+Mac users will have to install tesseract. Installing using Brew
+	    brew install tesseract
 
-## Problem Reporting
+**Linux**
+Linux users will have to install tesseract. Installing using apt-get
+	    apt-get install tesseract-ocr
 
-- If you face any problems or find it impossible to complete a task, document the issue in the README file of your branch. Explain what the problem was and why you were unable to complete it.
-
-## Timeline
-
-- The time limit for this task is 9 January 2025. 
+### To install necessary python packages
+1. Install pip (Ref: https://pip.pypa.io/en/stable/installation/)
+2. Install virtualenv  (Ref: https://virtualenv.pypa.io/en/latest/)
+3. Active the virtualenv
+4. Install python package with
+	    pip install -r requirements.txt
 
 
