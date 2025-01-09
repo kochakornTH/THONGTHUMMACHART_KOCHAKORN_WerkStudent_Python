@@ -59,7 +59,7 @@ Due to the small number of sample files, the developer assumes the following pos
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
-4. Complie via command line
+4. Compile via command line
     - (a) Open Command line program 
     - (b) Change directory to ‘app’ folder in the working folder
     - (c) Compile python script with
@@ -159,7 +159,7 @@ The program will return 2 folders:
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
-4. Complie via command line
+4. Compile via command line
 	- (a) Open Command line program 
 	- (b) Change directory to ‘\_OCR\labellingPrep’ folder in the working folder
 	- (c) Compile python script with
@@ -231,7 +231,7 @@ The program will return 2 folders:
 1. After Labelled copy file 'Batch_companyMatching.json' and rename as 'Batch_<Batch_Name>_companyMatching.json'. then open the JSON file and log Company number, company Name, and match file name.
 ![screenshot](/ImageDocument/_ManualCompanyMatching.png)
 
-2. Complie via command line
+2. Compile via command line
 	- (a) Open Command line program 
 	- (b) Change directory to ‘\_OCRlabellingPrep’ folder in the working folder
 	- (c) Compile python script with
@@ -242,8 +242,11 @@ python _mainGetOCRParameter.py <PATH_which_contains_production_batch_folder> <PA
 3. Go to Folder ‘<Batch Name>\_Control’ find files {‘Batch_<Batch Name>_listForRecieptDT.json’,‘Batch_<Batch Name>_listForRecieptNo.json’,‘Batch_<Batch Name>_listForCompanyName.json’,‘Batch_<Batch Name>_listForAMT.json’}
 4. Go to Folder ‘_OCR\_pdfOCRSCRIPT_DEV’ find files {'ReciptDateFormat.json','ReciptInvNoFormat.json','CompanyNameFormat.json’,'ReciptAmtFormat.json’}
 5. Manually edit 4 files in ‘_OCR\_pdfOCRSCRIPT_DEV’ with the guideline below
-
 - Guideline for ReciptDateFormat.json: ![screenshot](/ImageDocument/_ManualReciptDateFormatJSON.png)
 - Guideline for ReciptInvNoFormat.json: ![screenshot](/ImageDocument/_ManualReciptlnvNoFormatJSON.png)
 - Guideline for CompanyNameFormat.json: ![screenshot](/ImageDocument/_ManualCompanyNameFormatJSON.png)
 - Guideline for ReciptAmtFormat.json: ![screenshot](/ImageDocument/_ManualReciptAmtFormatJSON.png)
+5. Compile _mainGetOCRParameter.py again.
+6. Get result file ‘Batch_<Batch Name>_CheckingRules.json’ 
+7. if you would like to applied new company from Development Environment to Production you should update '_OCR\_pdfOCRSCRIPT_PRD\Programm_RulesCurrent.json' with JSON in ‘Batch_<Batch Name>_CheckingRules.json’ 
+
