@@ -163,3 +163,8 @@ Linux users will have to install tesseract. Installing using apt-get
 ```
 python _main.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 ```
+
+
+## 03.Labelling Preparation
+
+## 04.Labelled Reconcile
