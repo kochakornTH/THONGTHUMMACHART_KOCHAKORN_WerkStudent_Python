@@ -26,38 +26,38 @@
 3. tesseract
 4. Necessary packages in requirements.txt
 
-### To install ‘poppler’ 
+### 01. To install ‘poppler’ 
 (ref: https://github.com/Belval/pdf2image)
 	
 #### **Window**
 Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
 
-**Mac**
+#### **Mac**
 Mac users will have to install poppler. Installing using Brew:
 
 	brew install poppler
 
-**Linux**
+#### **Linux**
 Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
 
 
-### To install tesseract
-**Window**
+### 02. To install tesseract
+#### **Window**
 Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows)
 1. Download tesseract exe from https://github.com/UB-Mannheim/tesseract/wiki.
 2. Install this exe in C:Program Files (x86)Tesseract-OCR
 3. Open virtual machine command prompt in windows or anaconda prompt.
 4. Run pip install pytesseract
 
-**Mac**
+####**Mac**
 Mac users will have to install tesseract. Installing using Brew
 	    brew install tesseract
 
-**Linux**
+####**Linux**
 Linux users will have to install tesseract. Installing using apt-get
 	    apt-get install tesseract-ocr
 
-### To install necessary python packages
+### 03. To install necessary python packages
 1. Install pip (Ref: https://pip.pypa.io/en/stable/installation/)
 2. Install virtualenv  (Ref: https://virtualenv.pypa.io/en/latest/)
 3. Active the virtualenv
