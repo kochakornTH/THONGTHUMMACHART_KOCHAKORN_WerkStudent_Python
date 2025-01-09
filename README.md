@@ -196,7 +196,7 @@ python _mainpdfToGrayPNG.py './Work_Space' 'INV_20250109_2355'
 1. Copy folder '_gray' to Work_Space folder
 2. Change '_gray' folder name to 'Production_Batch_Folder_Labelled'
 3. Enter into the folder and start labelling with the manual below
-![screenshot](\ImageDocument\PDF_Lebelling_Guideline_image.png)
+![screenshot](/ImageDocument/PDF_Lebelling_Guideline_image.png)
 
 ### Labelled Reconcile Process
 #### <ins>Input</ins>
@@ -228,7 +228,10 @@ The program will return 2 folders:
 		JSON file that contains rules of 2-Step Validation rule and coordinate of PDF for cropping.
 
 #### <ins>Execution step</ins>
-1. Complie via command line
+1. ddd
+![screenshot](/ImageDocument/_ManualCompanyMatching.png)
+
+2. Complie via command line
 	- (a) Open Command line program 
 	- (b) Change directory to ‘\_OCRlabellingPrep’ folder in the working folder
 	- (c) Compile python script with
