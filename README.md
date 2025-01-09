@@ -244,6 +244,6 @@ python _mainGetOCRParameter.py <PATH_which_contains_production_batch_folder> <PA
 5. Manually edit 4 files in ‘_OCR\_pdfOCRSCRIPT_DEV’ with the guideline below
 
 - Guideline for ReciptDateFormat.json: ![screenshot](/ImageDocument/_ManualReciptDateFormatJSON.png)
-![screenshot](/ImageDocument/_ManualReciptlnvNoFormatJSON.png)
-![screenshot](/ImageDocument/_ManualCompanyNameFormatJSON.png)
-![screenshot](/ImageDocument/_ManualReciptAmtFormatJSON.png)
+- Guideline for ReciptInvNoFormat.json: ![screenshot](/ImageDocument/_ManualReciptlnvNoFormatJSON.png)
+- Guideline for CompanyNameFormat.json: ![screenshot](/ImageDocument/_ManualCompanyNameFormatJSON.png)
+- Guideline for ReciptAmtFormat.json: ![screenshot](/ImageDocument/_ManualReciptAmtFormatJSON.png)
