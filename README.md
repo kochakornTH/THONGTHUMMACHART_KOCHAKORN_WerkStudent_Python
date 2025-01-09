@@ -24,7 +24,7 @@
     - 4.2 Change directory to ‘app’ folder in the working folder
     - 4.3 Compile python script with
 ```
-python _main.py <PATH which contains production batch folder > <PATH of _OCR> <Batch Name> 
+python _main.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 ```
 
 Example of Working Directory
