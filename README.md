@@ -49,11 +49,11 @@ Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.
 3. Open virtual machine command prompt in windows or anaconda prompt.
 4. Run pip install pytesseract
 
-####**Mac**
+#### **Mac**
 Mac users will have to install tesseract. Installing using Brew
 	    brew install tesseract
 
-####**Linux**
+#### **Linux**
 Linux users will have to install tesseract. Installing using apt-get
 	    apt-get install tesseract-ocr
 
