@@ -248,5 +248,29 @@ python _mainGetOCRParameter.py <PATH_which_contains_production_batch_folder> <PA
 - Guideline for ReciptAmtFormat.json: ![screenshot](/ImageDocument/_ManualReciptAmtFormatJSON.png)
 5. Compile _mainGetOCRParameter.py again.
 6. Get result file ‘Batch_<Batch Name>_CheckingRules.json’ 
-7. if you would like to applied new company from Development Environment to Production you should update '_OCR\_pdfOCRSCRIPT_PRD\Programm_RulesCurrent.json' with JSON in ‘Batch_<Batch Name>_CheckingRules.json’ 
+7. if you would like to applied new company from Development Environment to Production you should update '_OCR\_pdfOCRSCRIPT_PRD\Programm_RulesCurrent.json' with JSON in ‘Batch_<Batch Name>_CheckingRules.json’ and copy {'ReciptDateFormat.json','ReciptInvNoFormat.json','CompanyNameFormat.json’,'ReciptAmtFormat.json’} from Development Environment to Production.
 
+Example of Working Directory
+
+```
+├── ...
+├── Work_Space                                      # Working Directory
+│   ├── Production_Batch_Folder                      # Folder that contains Production PDF files for infomation extraction.
+│   ├── _OCR                                         # Folder that contains Programs for infomation extraction.
+│       ├── labellingPrep                              # Folder that contains '_mainpdfToGrayPNG.py' for preparation PDF before Labelling.         
+│       |    └── _mainpdfToGrayPNG.py                                               
+│       ├──\_pdfOCRSCRIPT_PRD     
+│       |    └── Programm_RulesCurrent.json 
+│       |
+│       └──\_pdfOCRSCRIPT_DEV     
+|           ├── Batch_<Batch Name>_CheckingRules.json
+|           ├── Batch_<Batch Name>_listForRecieptDT.json
+|           ├── Batch_<Batch Name>_listForRecieptNo.json
+|           ├── Batch_<Batch Name>_listForCompanyName.json
+|           ├── Batch_<Batch Name>_listForAMT.json
+|           ├── ReciptDateFormat.json 
+|           ├── ReciptInvNoFormat.json
+|           ├── CompanyNameFormat.json
+|           └── ReciptAmtFormat.json
+└── ...
+```
