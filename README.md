@@ -72,9 +72,10 @@ Example of Working Directory
 ```
 ├── ...
 ├── Work_Space                           # Working Directory
-│   ├── Production_Batch_Folder          # Folder that contains Production PDF files for infomation extraction
-│   └── _OCR                             # Folder that contains Programs for infomation extraction
-│                              
+│   ├── Production_Batch_Folder             # Folder that contains Production PDF files for infomation extraction
+│   └── _OCR                                # Folder that contains Programs for infomation extraction 
+│    └── app                                   # Folder that contains '_main.py' for information extraction
+│       └── _main.py                             # Script for information extraction                       
 └── ...
 ```
 Example of python script
@@ -172,10 +173,9 @@ Example of Working Directory
 ├── Work_Space                                      # Working Directory
 │   ├── Production_Batch_Folder                      # Folder that contains Production PDF files for infomation extraction.
 │   ├── _OCR                                         # Folder that contains Programs for infomation extraction.
-│   │    ├── app                                        # Folder that contains '_main.py' for information extraction
-│   │    ├── labelledReconcile                          # Folder that contains '_mainGetOCRParameter.py' for reconcile labelled target and PDF file.             
 │   │    └── labellingPrep                              # Folder that contains '_mainpdfToGrayPNG.py' for preparation PDF before Labelling.         
-│   │
+│   |        └── _mainpdfToGrayPNG.py                             # Script for information extraction                  
+│   | 
 │   ├── Production_Batch_Folder_Control              # Folder that contains JSON output.      
 |   |    ├──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of All files.      
 |   |    └──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of Only PDF files.            
