@@ -165,6 +165,30 @@ The program will return 2 folders:
 ```
 	python _mainpdfToGrayPNG.py <PATH_which_contains_production_batch_folder> <Batch_Name> 
 ```
+Example of Working Directory
 
+```
+├── ...
+├── Work_Space                                      # Working Directory
+│   ├── Production_Batch_Folder                      # Folder that contains Production PDF files for infomation extraction.
+│   ├── _OCR                                         # Folder that contains Programs for infomation extraction.
+│   │    ├── app                                        # Folder that contains '_main.py' for information extraction
+│   │    ├── labelledReconcile                          # Folder that contains '_mainGetOCRParameter.py' for reconcile labelled target and PDF file.             
+│   │    └── labellingPrep                              # Folder that contains '_mainpdfToGrayPNG.py' for preparation PDF before Labelling.         
+│   │
+│   ├── Production_Batch_Folder_Control              # Folder that contains JSON output.      
+|   |    ├──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of All files.      
+|   |    └──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of Only PDF files.            
+│   └── Production_Batch_Folder_Labelling            # Folder that contains images for Lebelling.
+|   |    ├──  _gray                                    # Folder that contains Gray PNG files.      
+|   |    └──  _picture                                 # Folder that contains Color PNG files.     
+└── ...
+```
+Example of python script
+
+```
+python _mainpdfToGrayPNG.py './Work_Space' 'INV_20250109_2355' 
+
+```
 
 ## 04.Labelled Reconcile
