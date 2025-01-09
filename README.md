@@ -1,7 +1,7 @@
 # PDF Information Extraction with \OCR\app
 
 ## 01. Program Overview
-<ins>Input</ins>
+### <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
     - 'Production Batch Folder' is the folder that contain PDF files.
 2. PATH of 'Production Paremeter Directory'.
@@ -9,14 +9,14 @@
 3. Batch Name : A string that represent 'Production Batch Number'
     -  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name.
 
-<ins>Output</ins>
+### <ins>Output</ins>
 1. Excel file: File Name : ’BatchSummary\_\<Batch Name\>.xlsx’
     - with 2 sheets: 
         - ‘sheet1’:Summary of invoice info 
         - ‘sheet2’: pivot table of invoice info
 2. CSV file : File Name : ’BatchSummary\_\<Batch Name\>.csv’
 
-<ins>Execution step</ins>
+### <ins>Execution step</ins>
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder 
     - (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
