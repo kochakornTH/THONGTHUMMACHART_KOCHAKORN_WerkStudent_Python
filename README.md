@@ -197,3 +197,33 @@ python _mainpdfToGrayPNG.py './Work_Space' 'INV_20250109_2355'
 2. Change '_gray' folder name to 'Production_Batch_Folder_Labelled'
 3. Enter into the folder and start labelling with the manual below
 ![screenshot](PDF_Lebelling_Guideline_image.png)
+
+### Labelled Reconcile Process
+#### <ins>Input</ins>
+1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
+	- 'Production Batch Folder' is the folder that contain PDF files.
+2. PATH of ‘Development Parameter Directory'.
+	- 'Development Parameter Directory' is the folder that contain prior Parameter for pdf classification and OCR.
+3. Batch Name : A string that represent 'Production Batch Number'
+	-  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name. (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
+
+#### <ins>Output</ins>
+The program will return 2 folders: 
+1. Folder ‘<Batch Name>\_Labelling’
+	 In this folder, there are 2 folders:
+	1. ‘\_gray’ ; contains gray PNG files (files that be transformed from PDF)
+	2. ‘\_picture’ contains color PNG files (files that be transformed from PDF)
+
+2. Folder ‘<Batch Name>\_Control’
+	In this folder, there are 5 JSON files:
+	1.  ‘Batch_<Batch Name>_listForRecieptDT.json’
+		JSON file that contains basic info for manual labelling of date format.
+	2.  ‘Batch_<Batch Name>_listForRecieptNo.json’
+		JSON file that contains basic info for manual labelling of invoice number format.
+	3. ‘Batch_<Batch Name>_listForCompanyName.json’
+		JSON file that contains basic info for manual labelling of company name format.
+	4. ‘Batch_<Batch Name>_listForAMT.json’
+		JSON file that contains basic info for manual labelling of invoice gross amount format.
+	5. ‘Batch_<Batch Name>_CheckingRules.json’
+		JSON file that contains rules of 2-Step Validation rule and coordinate of PDF for cropping.
+
