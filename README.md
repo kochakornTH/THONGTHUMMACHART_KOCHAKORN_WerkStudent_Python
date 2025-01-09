@@ -1,4 +1,4 @@
-## 01. app
+## 01. PDF Information Extraction with \OCR\app
 <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
     - 'Production Batch Folder' is the folder that contain PDF files.
