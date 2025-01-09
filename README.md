@@ -5,11 +5,11 @@
 3. Batch Name : same as target production batch folder name.
 
 <ins>Output</ins>
-1. Excel file: File Name : ’BatchSummary\_<Batch Name>.xlsx’
+1. Excel file: File Name : ’BatchSummary\_\<Batch Name\>.xlsx’
 ```
 with 2 sheets: ‘sheet1’:Summary of invoice info, ‘sheet2’: pivot table of invoice info
 ```
-2. CSV file : File Name : ’BatchSummary\_<Batch Name>.csv’
+2. CSV file : File Name : ’BatchSummary\_\<Batch Name\>.csv’
 
 <ins>Execution step</ins>
 1. Copy all pdf into a folder
