@@ -26,8 +26,9 @@
 python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
 ```
 
-```
 Example of Working Directory
+
+```
 ├── ...
 ├── Work_Space                           # Working Directory
 │   ├── Production_Batch_Folder          # Folder that contains Production PDF files for infomation extraction
