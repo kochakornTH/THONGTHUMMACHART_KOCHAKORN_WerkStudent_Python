@@ -1,6 +1,13 @@
 # PDF Information Extraction with \OCR\app
 
 ## 01. Program Overview
+
+### Prerequisites
+1. poppler
+3. tesseract
+4. Necessary packages in requirements.txt
+4. Python 3.11.7
+
 ### <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
     - 'Production Batch Folder' is the folder that contain PDF files.
@@ -47,11 +54,6 @@ python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20240109_2355'
 ```
 
 ## 02. Installation
-### Prerequisites
-1. poppler
-3. tesseract
-4. Necessary packages in requirements.txt
-4. Python 3.11.7
 
 ### 01. To install ‘poppler’ 
 (ref: https://github.com/Belval/pdf2image)
