@@ -55,7 +55,7 @@ python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20250109_2355'
 ## 02. Installation
 
 ### 01. To install ‘poppler’ 
-(ref: https://github.com/Belval/pdf2image)
+(Reference: https://github.com/Belval/pdf2image)
 	
 #### <ins>Window</ins>
 Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
@@ -71,7 +71,8 @@ Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer
 
 ### 02. To install tesseract
 #### <ins>Window</ins>
-Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows)
+Simple steps for tesseract installation in windows. 
+(Reference: https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows)
 1. Download tesseract exe from https://github.com/UB-Mannheim/tesseract/wiki.
 2. Install this exe in C:Program Files (x86)Tesseract-OCR
 3. Open virtual machine command prompt in windows or anaconda prompt.
