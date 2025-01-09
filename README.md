@@ -16,15 +16,17 @@
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Open command line
 5. Change directory to ‘app’ folder in the working folder
-6. Comply python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
-
+6. Compile python script with
+```
+python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
+```
 
 ## Installation
 ### Prerequisites
-1. Python 3.11.7
-2. poppler
+1. poppler
 3. tesseract
 4. Necessary packages in requirements.txt
+4. Python 3.11.7
 
 ### 01. To install ‘poppler’ 
 (ref: https://github.com/Belval/pdf2image)
