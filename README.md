@@ -5,8 +5,8 @@
 ### Prerequisites
 1. poppler
 3. tesseract
-4. Necessary packages in requirements.txt
-4. Python 3.11.7
+3. Python 3.11.7
+4. Necessary Python packages in 'requirements.txt'
 
 ### <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
