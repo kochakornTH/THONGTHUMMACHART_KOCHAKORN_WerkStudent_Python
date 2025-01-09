@@ -228,7 +228,7 @@ The program will return 2 folders:
 		JSON file that contains rules of 2-Step Validation rule and coordinate of PDF for cropping.
 
 #### <ins>Execution step</ins>
-1. ddd
+1. After Labelled copy file 'Batch_companyMatching.json' and rename as 'Batch_<Batch_Name>_companyMatching.json'. then open the JSON file and log Company number, company Name, and match file name.
 ![screenshot](/ImageDocument/_ManualCompanyMatching.png)
 
 2. Complie via command line
