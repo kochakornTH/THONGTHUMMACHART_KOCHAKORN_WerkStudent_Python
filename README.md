@@ -1,6 +1,6 @@
 ## 01. app
 <ins>Input</ins>
-1. PATH which is a directory that contains 'Production Batch Folder'. 
+1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
     - 'Production Batch Folder' is the folder that contain PDF files.
 2. PATH of 'Production Paremeter Directory'.
     - 'Production Paremeter Directory' is the folder that contain prior paratmeter for pdf classification and OCR.
@@ -25,6 +25,13 @@
 ```
 python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
 ```
+
+* [tree-md](./tree-md)
+ * [](./Work_Space)
+    * [Production_Batch_Folder](./Work_Space/Production_Batch_Folder)
+    * [_OCR](./Work_Space/_OCR)
+
+
 
 ## Installation
 ### Prerequisites
