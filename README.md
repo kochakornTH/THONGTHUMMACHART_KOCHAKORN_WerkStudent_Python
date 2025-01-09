@@ -1,4 +1,4 @@
-# PDF Information Extraction with \OCR\app
+# PDF Information Extraction 
 ## 00. Case Limitation, Scope and Solution Selection
 ### Case Limitation
 Due to the small number of sample files, the developer assumes the following possible cases:
