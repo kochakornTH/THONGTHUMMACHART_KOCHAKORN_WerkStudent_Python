@@ -1,6 +1,6 @@
 # PDF Information Extraction with \OCR\app
 
-## Program Overview
+## 01. Program Overview
 <ins>Input</ins>
 1. Working space PATH which is a directory that contains 'Production Batch Folder'. 
     - 'Production Batch Folder' is the folder that contain PDF files.
@@ -46,7 +46,7 @@ python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20240109_2355'
 
 ```
 
-## Installation
+## 02. Installation
 ### Prerequisites
 1. poppler
 3. tesseract
