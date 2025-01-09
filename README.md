@@ -26,9 +26,10 @@
 3. tesseract
 4. Necessary packages in requirements.txt
 
-### To install ‘poppler’ (ref: https://github.com/Belval/pdf2image)
+### To install ‘poppler’ 
+(ref: https://github.com/Belval/pdf2image)
 	
-**Window**
+#### **Window**
 Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
 
 **Mac**
