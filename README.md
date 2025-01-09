@@ -5,7 +5,7 @@
 ### Case Limitation and Solution Selection
 
 
-## 01. Program Overview
+## 01. Information Extreaction Program Overview
 
 ### <ins>Prerequisites</ins> (* Installation Guide Below)
 1. poppler
@@ -107,6 +107,6 @@ Linux users will have to install tesseract. Installing using apt-get
     pip install -r requirements.txt
 ```
 
-## 03. Program Overview
+## 03. Labelling Program Overview
 
 
