@@ -127,10 +127,11 @@ Linux users will have to install tesseract. Installing using apt-get
 ```	
 
 ### 03. To install necessary python packages
-1. Install pip (Reference: https://pip.pypa.io/en/stable/installation/)
-2. Install virtualenv  (Reference: https://virtualenv.pypa.io/en/latest/)
-3. Active the virtualenv
-4. Install python package with
+1. Copy 'requirements.txt' from '_OCR\app\requirements.txt' to your current directory.
+2. Install pip (Reference: https://pip.pypa.io/en/stable/installation/)
+3. Install virtualenv  (Reference: https://virtualenv.pypa.io/en/latest/)
+4. Active the virtualenv
+5. Install python package with
 ```	
     pip install -r requirements.txt
 ```
