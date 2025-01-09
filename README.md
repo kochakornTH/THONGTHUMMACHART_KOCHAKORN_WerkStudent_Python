@@ -7,8 +7,7 @@
 <ins>Output</ins>
 1. Excel file: File Name : ’BatchSummary\_<Batch Name>.xlsx’
 ```
-SheetName:    ‘sheet1’:Summary of invoice info, 
-		        ‘sheet2’: pivot table of invoice info
+with 2 sheets: ‘sheet1’:Summary of invoice info, ‘sheet2’: pivot table of invoice info
 ```
 2. CSV file : File Name : ’BatchSummary\_<Batch Name>.csv’
 
