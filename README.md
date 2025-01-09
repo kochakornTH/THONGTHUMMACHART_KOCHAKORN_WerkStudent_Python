@@ -60,9 +60,9 @@ Due to the small number of sample files, the developer assumes the following pos
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Complie via command line
-    (a) Open Command line program 
-    (b) Change directory to ‘app’ folder in the working folder
-    (c) Compile python script with
+    - (a) Open Command line program 
+    - (b) Change directory to ‘app’ folder in the working folder
+    - (c) Compile python script with
 ```
 python _main.py <PATH_which_contains_production_batch_folder> <PATH_of-_OCR> <Batch_Name> 
 ```
@@ -159,9 +159,9 @@ The program will return 2 folders:
 2. Name to folder as batch name as batch folder 
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Complie via command line
-	(a) Open Command line program 
-	(b) Change directory to ‘\_OCRapp\labellingPrep’ folder in the working folder
-	(c) Compile python script with
+	- (a) Open Command line program 
+	- (b) Change directory to ‘\_OCRapp\labellingPrep’ folder in the working folder
+	- (c) Compile python script with
 ```
 	python _mainpdfToGrayPNG.py <PATH_which_contains_production_batch_folder> <Batch_Name> 
 ```
