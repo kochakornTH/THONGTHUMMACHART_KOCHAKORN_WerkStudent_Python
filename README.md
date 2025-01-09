@@ -49,7 +49,7 @@ Example of Working Directory
 Example of python script
 
 ```
-python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20240109_2355' 
+python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20250109_2355' 
 
 ```
 
