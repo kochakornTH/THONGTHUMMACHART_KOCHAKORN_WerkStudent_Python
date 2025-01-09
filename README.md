@@ -2,7 +2,7 @@
 
 ## 01. Program Overview
 
-### Prerequisites
+### <ins>Prerequisites</ins>
 1. poppler
 3. tesseract
 3. Python 3.11.7
