@@ -14,7 +14,7 @@
 2. PATH of 'Production Paremeter Directory'.
     - 'Production Paremeter Directory' is the folder that contain prior paratmeter for pdf classification and OCR.
 3. Batch Name : A string that represent 'Production Batch Number'
-    -  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name.
+    -  'Batch Name' HAVE TO be the same word with 'Production Batch Folder' name. (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
 
 ### <ins>Output</ins>
 1. Excel file: File Name : ’BatchSummary\_\<Batch Name\>.xlsx’
@@ -26,7 +26,6 @@
 ### <ins>Execution step</ins>
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder 
-    - (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>')
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Complie via command line
     (a) Open Command line program 
