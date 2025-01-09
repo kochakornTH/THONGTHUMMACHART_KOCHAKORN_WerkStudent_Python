@@ -284,10 +284,11 @@ Example of Working Directory
 
 1. Execution Method.
 Given the context, the developer assumes this program should align with the goals of a digital transformation project, which prioritizes reducing redundancy in workflows. However, the current 'Execution Method,' requiring manual script execution by users, introduces a potential risk of increased process errors due to human factors.
-_
+### A manual process
 ![screenshot](/ImageDocument/_FlowChartHuman.png)
 The figure above illustrates a manual process where two officers handle invoice PDF files. A significant risk is human error, such as the accidental omission of a single file. This can lead to discrepancies in the aggregated invoice totals, necessitating a time-consuming manual review of all PDF files by both officers to identify and rectify the error.
-_
+
+### A Semi-Automation process
 ![screenshot](/ImageDocument/_FlowChartAutomation.png)
 As depicted in the figure, the deployment of Python scripts as an API can enhance process security through the following mechanisms:
 1. Comprehensive Logging: All files processed and the actions taken are systematically logged within the system.
