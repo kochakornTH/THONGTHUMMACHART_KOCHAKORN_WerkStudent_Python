@@ -57,20 +57,20 @@ python _main.py './Work_Space' './Work_Space/_OCR' 'INV_20250109_2355'
 ### 01. To install ‘poppler’ 
 (ref: https://github.com/Belval/pdf2image)
 	
-#### <ins>Window<\ins>
+#### <ins>Window</ins>
 Windows users will have to build or download poppler for Windows. The recommend version is  @oschwartz10612 version which is the most up-to-date. Then it has to add the bin/ folder to PATH or use poppler\_path = r"C:pathtopoppler-xxbin" as an argument in convert\_from\_path.
 
-#### <ins>Mac<\ins>
+#### <ins>Mac</ins>
 Mac users will have to install poppler. Installing using Brew:
 
 	brew install poppler
 
-#### <ins>Linux<\ins>
+#### <ins>Linux</ins>
 Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
 
 
 ### 02. To install tesseract
-#### <ins>Window<\ins>
+#### <ins>Window</ins>
 Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows)
 1. Download tesseract exe from https://github.com/UB-Mannheim/tesseract/wiki.
 2. Install this exe in C:Program Files (x86)Tesseract-OCR
@@ -80,13 +80,13 @@ Simple steps for tesseract installation in windows. (Ref: https://stackoverflow.
     pip install pytesseract
 ```	
 
-#### <ins>Mac<\ins>
+#### <ins>Mac</ins>
 Mac users will have to install tesseract. Installing using Brew
 ```		    
     brew install tesseract
 ```	
 
-#### <ins>Linux<\ins>
+#### <ins>Linux</ins>
 Linux users will have to install tesseract. Installing using apt-get
 ```		
     apt-get install tesseract-ocr
