@@ -1,4 +1,9 @@
 # PDF Information Extraction with \OCR\app
+## 00. Case Limitation and Solution Selection
+### Case Limitation
+
+### Case Limitation and Solution Selection
+
 
 ## 01. Program Overview
 
