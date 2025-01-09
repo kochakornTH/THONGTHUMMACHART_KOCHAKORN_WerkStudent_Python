@@ -1,16 +1,16 @@
 ## 01. app
-**Input**
+<ins>Input</ins>
 1. A directory which contains production batch folder. 
 2. Production paremeter directory.
 3. Batch Name : same as target production batch folder name.
 
-**output**
+<ins>Output</ins>
 1. Excel file: File Name : ’BatchSummary\_<Batch Name>.xlsx’
 2. SheetName:    ‘sheet1’:Summary of invoice info, 
 		        ‘sheet2’: pivot table of invoice info
 2. CSV file : File Name : ’BatchSummary\_<Batch Name>.csv’
 
-**Execution step**
+<ins>Execution step</ins>
 1. Copy all pdf into a folder
 2. Name to folder as batch name as batch folder (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>)
 3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
