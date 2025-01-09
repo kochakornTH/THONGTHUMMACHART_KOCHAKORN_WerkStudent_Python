@@ -176,10 +176,10 @@ Example of Working Directory
 │   │    └── labellingPrep                              # Folder that contains '_mainpdfToGrayPNG.py' for preparation PDF before Labelling.         
 │   |        └── _mainpdfToGrayPNG.py                             # Script for information extraction                  
 │   | 
-│   ├── Production_Batch_Folder_Control              # Folder that contains JSON output.      
+│   ├── Production_Batch_Folder_Control              # Output Folder that contains JSON output.      
 |   |    ├──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of All files.      
 |   |    └──  Production_Batch_Folder_Overall.json     # JSON file that contains preparation result of Only PDF files.            
-│   └── Production_Batch_Folder_Labelling            # Folder that contains images for Lebelling.
+│   └── Production_Batch_Folder_Labelling            # Output Folder that contains images for Lebelling.
 |   |    ├──  _gray                                    # Folder that contains Gray PNG files.      
 |   |    └──  _picture                                 # Folder that contains Color PNG files.     
 └── ...
