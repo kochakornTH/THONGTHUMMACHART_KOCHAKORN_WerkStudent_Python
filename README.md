@@ -5,20 +5,20 @@
 3. Batch Name : same as target production batch folder name.
 
 **output**
-1. Excel file: File Name : ’BatchSummary\_<Batch Name>.xlsx’
+1. Excel file: File Name : ’BatchSummary_<Batch Name>.xlsx’
 2. SheetName:    ‘sheet1’:Summary of invoice info, 
 		        ‘sheet2’: pivot table of invoice info
-2. CSV file : File Name : ’BatchSummary\_<Batch Name>.csv’
+2. CSV file : File Name : ’BatchSummary_<Batch Name>.csv’
 
 **Execution step**
 1. Copy all pdf into a folder
-2. Name to folder as batch name as batch folder (suggest: ‘INV\_\<YYYYMMDD\_HHMM\>)
-3. Copy ‘\_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
+2. Name to folder as batch name as batch folder (suggest: ‘INV_<YYYYMMDD_HHMM>)
+3. Copy ‘_OCR’ folder into working folder (it SHOULD NOT in the batch folder).
 4. Open command line
 5. Change directory to ‘app’ folder in the working folder
 6. Compile python script with
 ```
-python _main.py <PATH which contains production batch folder > \<PATH of _OCR\> <Batch Name> 
+python _main.py <PATH which contains production batch folder > <PATH of _OCR> <Batch Name> 
 ```
 
 ## Installation
