@@ -162,7 +162,9 @@ The program will return 2 folders:
 	(a) Open Command line program 
 	(b) Change directory to ‘\_OCRapp’ folder in the working folder
 	(c) Compile python script with
+```
 	python _mainpdfToGrayPNG.py <PATH_which_contains_production_batch_folder> <Batch_Name> 
+```
 
 
 ## 04.Labelled Reconcile
