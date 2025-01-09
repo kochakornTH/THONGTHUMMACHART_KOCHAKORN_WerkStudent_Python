@@ -94,8 +94,8 @@ Linux users will have to install tesseract. Installing using apt-get
 ```	
 
 ### 03. To install necessary python packages
-1. Install pip (Ref: https://pip.pypa.io/en/stable/installation/)
-2. Install virtualenv  (Ref: https://virtualenv.pypa.io/en/latest/)
+1. Install pip (Reference: https://pip.pypa.io/en/stable/installation/)
+2. Install virtualenv  (Reference: https://virtualenv.pypa.io/en/latest/)
 3. Active the virtualenv
 4. Install python package with
 ```	
